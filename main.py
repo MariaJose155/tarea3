@@ -325,21 +325,6 @@ print("la correlacion de pearson es:",pearson)
 print("la correlación de pearson debe ser -1 < p < 1, como nuestra correlación de pearson es -0.7 aprox se determina que existe correlación negativa")
 print("----------------------")
 
-print("Asumir independencia de X y Y. Analíticamente, ¿cuál es entonces la expresión de la función de densidad conjunta que modela los datos?")
-print("sabemos que 2 variables son estadisticamente independientes si y solo si:")
-print("P{X ≤ x, Y ≤ y} = P{X ≤ x}P{Y ≤ y} ")
-print("de lo anterior sabemos que la función acumulativa es la siguiente:")
-print("FX,Y (x, y) = FX (x)FY (y) ")
-print("y la función de densidad es:")
-print("fX,Y (x, y) = fX (x)fY (y)")
-print("tambien sabemos que la función de densidad conjunta bivarida discreta esta dada por:")
-print("fX,Y (x, y) = sumatoria de n=1 hasta N sumatoria de n=1 hasta M de P(xn, ym)δ(x − xn)δ(y − ym) ")
-print("entonces la expresión que modela los datos es la siguiente:")
-print("fX (x|Y ≤ y) = fX (x)")
-print("fY (y|X ≤ x) = fY (y)")
-
-
-
 #graficar en 3d
 #Observo que en el archivo xyp es más sencillo obtener los vectores y,x y z por separado, entonces:
 # lista donde se almacenan datos
