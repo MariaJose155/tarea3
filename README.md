@@ -4,7 +4,7 @@ Vector pmf de y
 De este primer vector observando la imagen adjunta curvay.png podemos determinar que la gráfica es similar a una distribución guassiana o normal.
 
 Valores pmf de x
-[0.06448 0.06785 0.07734 0.09035 0.11988 0.13828 0.028 0.09494 0.07289 0.05709 0.06233]
+[0.06448 0.06785 0.07734 0.09035 0.11988 0.13828 0.11806 0.09494 0.07289 0.05709 0.06233]
 De este primer vector observando la imagen adjunta curvax.png podemos determinar que la gráfica es similar a una distribución guassiana o normal.
 
 Para ambos casos se hizo la comparación con las distribuciones en la siguiente página web.
@@ -25,6 +25,7 @@ fX,Y (x, y) = sumatoria de n=1 hasta N sumatoria de n=1 hasta M de P(xn, ym)δ(x
 Entonces la expresión que modela los datos es la siguiente:
 fX (x|Y ≤ y) = fX (x)
 fY (y|X ≤ x) = fY (y)
+
 RESPUESTA TRES
 Para obtener los resultados del punto 3 es necesario tener claro esto primero:
 Vector de y
@@ -44,5 +45,5 @@ Note que la covarianza es negativa esto implica que cuando una variable crece la
 La correlación de pearson debe ser -1 < p < 1, como nuestra correlación de pearson es -0.7 aprox se determina que existe correlación negativa
 
 RESPUESTA CUATRO
-Las gráficas en 2D son del modelo y su respectiva pmf (note que la pmf no empieza en 0 por lo tanto se encuntra desfasada de manera vertical en la gráfica).
+Las gráficas en 2D son del modelo y su respectiva pmf (note que la pmf no empieza en 0 por lo tanto se encuentra desfasada de manera vertical en la gráfica).
 La gráfica en 3D se encuentra adjunta.
