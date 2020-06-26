@@ -3,7 +3,7 @@ Vector pmf de y
 [0.03698 0.03364 0.03105 0.03481 0.03546 0.0395  0.04947 0.04839 0.06363 0.08419 0.07856 0.08193 0.06626 0.05344 0.0444  0.03981 0.03691 0.0343 0.04137 0.02939 0.03657]
 De este primer vector observando la imagen adjunta curvay.png podemos determinar que la gráfica es similar a una distribución guassiana o normal.
 
-Valores pmf de x
+Vector pmf de x
 [0.06448 0.06785 0.07734 0.09035 0.11988 0.13828 0.11806 0.09494 0.07289 0.05709 0.06233]
 De este primer vector observando la imagen adjunta curvax.png podemos determinar que la gráfica es similar a una distribución guassiana o normal.
 
