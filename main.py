@@ -168,7 +168,7 @@ for j in range(M):
     j = j + 1;
   else:
     pos77 = float(lote[6][j]);
-    x11 += pos22;
+    x11 += pos77;
 #print ("el valor de x11",x11)
 for j in range(M):
   if j == 0:
@@ -198,13 +198,15 @@ for j in range(M):
     pos110 = float(lote[10][j]);
     x15 += pos110;
 #print ("el valor de x15",x15)
+ejex = linspace(5,15,11)
+ejey = linspace(5,25,21)
 #ploteamos las curvas de ambas pmf
-curvax = plt.plot([x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15])
+curvax = plt.plot(ejex,[x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15])
 plt.title ( 'curva x' )
 plt.savefig('curva x')
 plt.cla()
 
-curvay = plt.plot([y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,y17,y18,y19,y20,y21,y22,y23,y24,y25])
+curvay = plt.plot(ejey,[y5,y6,y7,y8,y9,y10,y11,y12,y13,y14,y15,y16,y17,y18,y19,y20,y21,y22,y23,y24,y25])
 plt.title ( 'curva y' )
 plt.savefig('curva y')
 plt.cla()
@@ -233,7 +235,7 @@ xs = [5,6,8,9,10,11,12,13,14,15]
 
 #modelo para pmf de X
 #MODELO DISTRIBUCIÓN NORMAL
-mu, sigma = 3, 10 # media y desvio estandar
+mu, sigma = 5, 2.5 # media y desvio estandar
 normal = stats.norm(mu, sigma)
 x = np.linspace(normal.ppf(0.01),
                 normal.ppf(0.99), 100)
@@ -247,7 +249,7 @@ plt.savefig('Distribución Normal vs funcion de densidad marginal X')
 plt.cla()
 #modelo para pmf de Y
 #MODELO DISTRIBUCIÓN NORMAL
-m, s = 10, 8.5 # media y desvio estandar
+m, s = 10, 4.5 # media y desvio estandar
 normal = stats.norm(m, s)
 x = np.linspace(normal.ppf(0.01),
                 normal.ppf(0.99), 100)
@@ -359,4 +361,3 @@ ax = plt.axes(projection="3d")
 ax.plot3D(vvx,vvy,vvz,'red')
 plt.show()
 plt.savefig('3d')
-
