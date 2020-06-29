@@ -14,15 +14,15 @@ Y de esa manera se obtuvo cual era la mejor curva de ajuste para ambas pmf.
 
 RESPUESTA DOS
 Asumir independencia de X y Y. Analíticamente, ¿cuál es entonces la expresión de la función de densidad conjunta que modela los datos?
-<img src="https://render.githubusercontent.com/render/math?math=G(K) = (\frac{1}{\sqrt{2\pi\phi^2}})\exp{\frac{-(k-u)^2}{2\phi^2}}">
+<img src="https://render.githubusercontent.com/render/math?math=G(K) = (\frac{1}{\sqrt{2\pi\mu^2}})\exp{\frac{-(k-u)^2}{2\mu^2}}">
 Entonces tenemos para x
-<img src="https://render.githubusercontent.com/render/math?math=Gx(x) = (\frac{1}{\sqrt{2\pi\phi x^2}})\exp{\frac{-(x-ux)^2}{2\phi x^2}}
+<img src="https://render.githubusercontent.com/render/math?math=Gx(x) = (\frac{1}{\sqrt{2\pi\mu x^2}})\exp{\frac{-(x-ux)^2}{2\mu x^2}}">
 y para y
-<img src="https://render.githubusercontent.com/render/math?math=Gy(y) = (\frac{1}{\sqrt{2\pi\phi y^2}})\exp{\frac{-(y-uy)^2}{2\phi y^2}}
+<img src="https://render.githubusercontent.com/render/math?math=Gy(y) = (\frac{1}{\sqrt{2\pi\mu y^2}})\exp{\frac{-(y-uy)^2}{2\mu y^2}}">
 Por lo tanto
-<img src="https://render.githubusercontent.com/render/math?math=Gx,y(K) = Gx(x)Gy(y)
-Donde phix = 3.299 , phiy = 6.026 ,ux = 9.904, uy = 15.079.
-Nota: Tome phi como mu (no supe como poner mu)
+<img src="https://render.githubusercontent.com/render/math?math=Gx,y(K) = Gx(x)Gy(y)">
+Donde mux = 3.299 , muy = 6.026 ,ux = 9.904, uy = 15.079.
+
 En caso de no poder ver la respuesta bien ver pdf adjunto
 RESPUESTA TRES
 Para obtener los resultados del punto 3 es necesario tener claro esto primero:
