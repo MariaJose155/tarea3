@@ -21,7 +21,7 @@ y para y
 <img src="https://render.githubusercontent.com/render/math?math=Gy(y) = (\frac{1}{\sqrt{2\pi\mu y^2}})\exp{\frac{-(y-uy)^2}{2\mu y^2}}">
 Por lo tanto
 <img src="https://render.githubusercontent.com/render/math?math=Gx,y(K) = Gx(x)Gy(y)">
-Donde mux = 3.299 , muy = 6.026 ,ux = 9.904, uy = 15.079.
+Donde <img src="https://render.githubusercontent.com/render/math?math\mu x = 3.299 , \mu y = 6.026 ,ux = 9.904, uy = 15.079.">
 
 En caso de no poder ver la respuesta bien ver pdf adjunto
 RESPUESTA TRES
